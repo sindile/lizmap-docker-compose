@@ -13,8 +13,10 @@ if [ ! -d $INSTALL_DEST ]; then
     exit 1
 fi
 
-export LIZMAP_UID=$(id -u)
-export LIZMAP_GID=$(id -g)
+#export LIZMAP_UID=$(id -u)
+#export LIZMAP_GID=$(id -g)
+export LIZMAP_UID=1000
+export LIZMAP_GID=1000
 
 #
 # Commands
